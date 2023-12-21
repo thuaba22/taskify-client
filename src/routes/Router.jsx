@@ -5,6 +5,8 @@ import Packages from "../pages/Packages/Packages";
 import Reviews from "../pages/Reviews/Reviews";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../layouts/Dashboard/Dashboard";
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
       },
       {
         path: "/packages",
