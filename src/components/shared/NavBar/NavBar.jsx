@@ -71,9 +71,9 @@ const NavBar = () => {
       <div className="navbar-end">
         <Link
           className="btn text-white bg-[#5F33E1] hover:bg-[#5F33E1]"
-          to="/dashboard"
+          to="/login"
         >
-          Explore More
+          Login
         </Link>
       </div>
     </div>
