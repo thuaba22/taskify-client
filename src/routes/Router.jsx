@@ -7,6 +7,8 @@ import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../layouts/Dashboard/Dashboard";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import UserProfile from "../pages/DashboardPages/UserProfile/UserProfile";
+import AllTasksByUser from "../pages/DashboardPages/AllTasksByUser/AllTasksByUser";
 
 const router = createBrowserRouter([
   {
@@ -42,7 +44,16 @@ const router = createBrowserRouter([
         <Dashboard></Dashboard>
       </PrivateRoute>
     ),
-    children: [{}],
+    children: [
+      {
+        path: "/dashboard/user-profile",
+        element: <UserProfile></UserProfile>,
+      },
+      {
+        path: "/dashboard/user-tasks",
+        element: <AllTasksByUser></AllTasksByUser>,
+      },
+    ],
   },
 ]);
 export default router;

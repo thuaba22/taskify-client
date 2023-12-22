@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Basic",
+    "benefits": [
+      "Access to essential task management features",
+      "Up to 50 tasks per month",
+      "Email support"
+    ],
+    "price": 9.99
+  },
+  {
+    "name": "Pro",
+    "benefits": [
+      "Full access to advanced task management tools",
+      "Unlimited tasks and projects",
+      "Priority customer support"
+    ],
+    "price": 19.99
+  },
+  {
+    "name": "Business",
+    "benefits": [
+      "Team collaboration features",
+      "Customizable dashboards",
+      "24/7 dedicated support"
+    ],
+    "price": 49.99
+  }
+]
