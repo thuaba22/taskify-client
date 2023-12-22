@@ -1,0 +1,22 @@
+[
+  {
+    "name": "John Doe",
+    "rating": 4.5,
+    "review": "Taskify has been a game-changer for me. It has greatly improved my task organization and productivity. The drag-and-drop functionality is fantastic!"
+  },
+  {
+    "name": "Alice Smith",
+    "rating": 5,
+    "review": "As a developer, Taskify has become an essential tool in my workflow. Creating and managing tasks is a breeze, and the collaboration features are excellent."
+  },
+  {
+    "name": "Emily Johnson",
+    "rating": 4,
+    "review": "I use Taskify to keep track of my study tasks, and it has made a significant difference in my academic life. Highly recommended!"
+  },
+  {
+    "name": "Michael Brown",
+    "rating": 3.5,
+    "review": "Taskify is a solid task management platform. It has helped me stay organized, but I wish there were more customization options for task details."
+  }
+]
