@@ -122,7 +122,7 @@ const Register = () => {
           <div className="card md:w-[500px] border bg-base-100">
             <div className="card-body">
               <form onSubmit={handleSubmit(handleRegister)}>
-                <h1 className="text-3xl text-[#216D30] font-bold">Sign Up</h1>
+                <h1 className="text-3xl text-black font-bold">Sign Up</h1>
                 <div className="form-control">
                   <label className="label">
                     <span className="label-text">Name</span>
@@ -217,20 +217,20 @@ const Register = () => {
                     {/* ... terms and conditions label ... */}
                   </div>
                   {registerError && (
-                    <p className="text-[#216D30]">{registerError}</p>
+                    <p className="text-black">{registerError}</p>
                   )}
                 </div>
                 <div className="form-control mt-6">
                   <button
                     type="submit"
-                    className="btn bg-[#45D62D] hover:bg-[#45D62D] text-white"
+                    className="btn bg-[#5F33E1] hover:bg-[#5F33E1] text-white"
                   >
                     Register
                   </button>
                   <p className="mt-4 block text-center text-base font-normal leading-relaxed text-gray-700 antialiased">
                     Already have an account?
                     <Link
-                      className="font-medium text-black transition-colors hover:text-[#216D30]"
+                      className="font-medium text-black transition-colors hover:text-black"
                       to="/login"
                     >
                       Log In
@@ -241,7 +241,7 @@ const Register = () => {
               <div className="form-control mt-5">
                 <button
                   onClick={handleGoogleSignIn}
-                  className="btn bg-[#45D62D] hover:bg-[#45D62D] text-white w-full"
+                  className="btn bg-[#5F33E1] hover:bg-[#5F33E1] text-white w-full"
                 >
                   <FaGoogle className="text-3xl"></FaGoogle> Register with
                   Google

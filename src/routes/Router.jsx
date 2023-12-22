@@ -8,7 +8,8 @@ import Dashboard from "../layouts/Dashboard/Dashboard";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import UserProfile from "../pages/DashboardPages/UserProfile/UserProfile";
-import AllTasksByUser from "../pages/DashboardPages/AllTasksByUser/AllTasksByUser";
+import AddTask from "../pages/DashboardPages/AddTask/AddTask";
+import AllTask from "../pages/DashboardPages/AllTask/AllTask";
 
 const router = createBrowserRouter([
   {
@@ -50,8 +51,12 @@ const router = createBrowserRouter([
         element: <UserProfile></UserProfile>,
       },
       {
-        path: "/dashboard/user-tasks",
-        element: <AllTasksByUser></AllTasksByUser>,
+        path: "/dashboard/all-tasks",
+        element: <AllTask></AllTask>,
+      },
+      {
+        path: "/dashboard/add-task",
+        element: <AddTask></AddTask>,
       },
     ],
   },

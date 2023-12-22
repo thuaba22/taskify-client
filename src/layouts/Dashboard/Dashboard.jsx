@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { FaUser } from "react-icons/fa6";
+import { FaTasks } from "react-icons/fa";
+import { MdPostAdd } from "react-icons/md";
 
 const Dashboard = () => {
   const { user } = useContext(AuthContext);
@@ -18,9 +20,15 @@ const Dashboard = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/dashboard/user-tasks">
-                  <FaUser />
-                  My Tasks
+                <NavLink to="/dashboard/all-tasks">
+                  <FaTasks />
+                  All Task
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/dashboard/add-task">
+                  <MdPostAdd />
+                  Add Tasks
                 </NavLink>
               </li>
             </>
