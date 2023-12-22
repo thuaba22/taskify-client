@@ -4,7 +4,7 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 const Banner = () => {
   return (
     <div className="hero min-h-screen bg-white">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content w-[90%] mx-auto flex-col lg:flex-row-reverse">
         <img
           className="lg:w-[100%]"
           src="https://i.postimg.cc/d1qd9609/girlImg.png"

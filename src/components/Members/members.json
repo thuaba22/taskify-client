@@ -1,0 +1,47 @@
+[
+  {
+    "type": "Developers",
+    "image": "https://i.postimg.cc/j5S1J0wB/developer.jpg",
+    "benefits": [
+      "Efficiently manage coding tasks",
+      "Prioritize projects and deadlines",
+      "Collaborate with team members seamlessly"
+    ]
+  },
+  {
+    "type": "Corporate Professionals",
+    "image": "https://i.postimg.cc/pTc6fGKr/corporate.jpg",
+    "benefits": [
+      "Organize meetings and agendas",
+      "Keep track of important tasks",
+      "Improve overall project management"
+    ]
+  },
+  {
+    "type": "Bankers",
+    "image": "https://i.postimg.cc/kMZHDHnh/banker.jpg",
+    "benefits": [
+      "Manage financial tasks and transactions",
+      "Set and meet financial goals",
+      "Enhance team collaboration in banking projects"
+    ]
+  },
+  {
+    "type": "Students",
+    "image": "https://i.postimg.cc/zXC4Mjrt/students.jpg",
+    "benefits": [
+      "Stay organized with assignments and projects",
+      "Prioritize study tasks efficiently",
+      "Collaborate on group projects effectively"
+    ]
+  },
+  {
+    "type": "Entrepreneurs",
+    "image": "https://i.postimg.cc/bYb7v6zs/entreprenuers.jpg",
+    "benefits": [
+      "Manage business tasks and projects",
+      "Set and achieve business goals",
+      "Collaborate with partners and team members"
+    ]
+  }
+]
